@@ -1,0 +1,27 @@
+/*
+External CSS file
+*/
+
+body{
+		max-width:1000px;
+		margin:auto;
+		font-family: Roboto;
+		font-size:16px;
+}
+
+h4{
+	font: italic small-caps bolder 28px arial, sans-serif;
+}
+
+div{
+	margin-top: 5px;
+	padding: 20px;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float:right;
+}

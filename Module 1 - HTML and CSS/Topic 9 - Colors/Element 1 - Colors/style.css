@@ -1,0 +1,10 @@
+/*
+External CSS file
+*/
+
+body{
+		max-width:1000px;
+		margin:auto;
+		font-family: Roboto;
+		font-size:16px;
+}

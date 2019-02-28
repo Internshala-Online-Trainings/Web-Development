@@ -1,0 +1,172 @@
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+	max-width:1000px;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#header {
+    padding: 5px 0px;
+    color:#403F3F;
+    text-align:center;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+
+h3{
+    font-weight: 900;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.container {
+    padding:20px;
+    margin: auto;
+	width:100%;
+    overflow-x: hidden;
+}
+nav { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden; 
+} 
+
+li> a 
+{ 
+    display: block; 
+    color: #666; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    float: right; 
+}
+
+#background_image {    
+    height: 350px;
+    padding-top: 50px; 
+    background: url(./img/bat_cover.jpg);
+    color: #fff;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    padding:15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+}
+
+th {
+    text-align: left;
+    background-color: #ececec;
+}
+
+#image{
+    float:left;
+    padding:0px 20px 20px 0px;
+}
+
+
+#content {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 450px;
+    padding:30px 20px;
+    margin-top:50px;
+}
+
+#content h2{
+	font-size:16px;
+	font-weight: normal;
+}
+
+.list_box{
+    width:100%;
+    overflow:hidden;
+}
+
+.box{
+    display: inline-block;
+    width: 50%;
+    float:left;
+}
+
+
+img{
+    max-width: 100%; 
+    height: auto;
+    vertical-align: middle;
+}
+
+#identity {
+    overflow: auto;
+}
+
+.thumbnail {
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: #666;
+    margin: 50px;
+}
+
+input[type="text"] {
+  padding: 14px 70px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+	border: none;
+	background-color: #26211f;
+    color: white;
+    font-size: 16px;
+    margin: 4px -4px;
+	padding: 16px 40px;
+}
+
+
+
+footer {
+    padding: 5px 0;
+    color:#000;
+    border-top: 1px solid;
+    margin: auto;
+}
+
+footer p {
+	text-align: center;
+}
