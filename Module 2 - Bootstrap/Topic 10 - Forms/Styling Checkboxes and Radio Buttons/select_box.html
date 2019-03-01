@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Forms in Bootstrap</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <h1> Styling forms </h1>
+                    <form >
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text"  class="form-control" id="firstname" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">Last Name</label>
+                            <input type="text"  class="form-control" name="lastname" id="lastname">
+                        </div>
+
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="gender" value="male"> Male
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female"> Female
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="other"> Other
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            I want to order: 
+                            <label>
+                                <input type="checkbox" name="food" value="Coffee" checked> Coffee
+                            </label>
+                            <label>		  
+                                <input type="checkbox" name="food" value="Cake"> Cake
+                            </label> 
+                        </div>
+                        <div class="form-group">
+                            Quantity
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
