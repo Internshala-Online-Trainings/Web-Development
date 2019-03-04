@@ -1,0 +1,16 @@
+The queries used in the lesson.
+
+    INSERT INTO ecommerce.products (name, category) values ('harry_potter', 'book');
+    INSERT INTO ecommerce.products (name, category) values ('deception_point', 'book');
+    INSERT INTO ecommerce.products (name, category) values ('drunkards_walk', 'book');
+    INSERT INTO ecommerce.products (name, category) values ('pencil_box', 'stationery');
+    INSERT INTO ecommerce.products (name, category) values ('night_lamp', 'other');
+
+
+    INSERT INTO ecommerce.users (email, first_name, last_name, phone) values ('max@xyz.com', 'Max', 'Joseph', 9915174990);
+    INSERT INTO ecommerce.users (email, first_name, last_name, phone) values ('atif@xyz.com', 'Atif', NULL, 9915174991);
+    INSERT INTO ecommerce.users (email, first_name, last_name, phone) values ('amar@xyz.com', 'Amar', NULL, 9915174956);
+    INSERT INTO ecommerce.users (email, first_name, last_name, phone) values ('rahul@xyz.com', 'Rahul', NULL, 5515874956);
+    INSERT INTO ecommerce.users_products (user_id, product_id) values (4, 2);
+    INSERT INTO ecommerce.users_products (user_id, product_id) values (4, 5);
+

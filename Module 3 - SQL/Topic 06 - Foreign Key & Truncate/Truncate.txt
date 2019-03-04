@@ -1,0 +1,5 @@
+The queries used in the lesson.
+
+    TRUNCATE TABLE users_products;
+    TRUNCATE TABLE users;
+

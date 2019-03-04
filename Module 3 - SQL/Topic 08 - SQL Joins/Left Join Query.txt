@@ -1,0 +1,5 @@
+The queries used in the lesson.
+
+    SELECT * FROM users u LEFT JOIN users_products up ON u.id = up.user_id;
+    SELECT * FROM users_products up LEFT JOIN users u ON up.user_id = u.id;
+

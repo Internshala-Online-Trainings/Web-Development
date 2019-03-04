@@ -1,0 +1,7 @@
+The queries used in the lesson.
+
+DROP table temp_db.products_1;
+DROP table temp_db.products_2;
+DROP table temp_db.products_3;
+DROP table temp_db.products_4;
+DROP database temp_db;

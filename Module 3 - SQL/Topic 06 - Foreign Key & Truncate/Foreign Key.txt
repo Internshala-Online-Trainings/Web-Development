@@ -1,0 +1,5 @@
+The queries used in the lesson.
+
+    CREATE table products query;
+    CREATE table users_products query;
+

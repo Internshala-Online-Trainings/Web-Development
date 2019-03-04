@@ -1,0 +1,8 @@
+The queries used in the lesson.
+
+    Alter table database_name.table_name CHANGE column_name new_column_name data type(length) constraints;
+    Alter table temp_db.temp_users CHANGE first_name name varchar(255);
+    Alter table database_name.table_name MODIFY column_name datatype properties;
+    Alter table temp_db.temp_users MODIFY last_name varchar(255) NOT NULL;
+    Alter table temp_db.temp_users MODIFY name char(255) NOT NULL;
+

@@ -1,0 +1,6 @@
+The queries used in the lesson.
+
+    CREATE TABLE temp_db.products_2 ( id INT NOT NULL, name VARCHAR(30), category INT(30), PRIMARY KEY (id));
+    CREATE TABLE temp_db.products_3 ( id INT NOT NULL PRIMARY KEY, name VARCHAR(30), category INT(30));
+    CREATE TABLE temp_db.products_4 ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(30), category INT(30));
+

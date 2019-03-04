@@ -1,0 +1,31 @@
+The queries used in the lesson.
+
+    SELECT * FROM products;
+    SELECT id, name FROM products;
+    SELECT id, name, category FROM products where id = 1;
+    SELECT id, name, category FROM products where category = 'book';
+    SELECT id, first_name, last_name FROM users;
+    SELECT id, first_name, last_name FROM users WHERE last_name = ‘unknown’;
+    SELECT id, first_name, last_name, phone FROM users WHERE last_name = 'unknown' AND phone = 991517499;
+
+
+DISTINCT
+
+Run the following query:
+
+    SELECT user_id FROM users_products;
+
+The above query returns all the users who have purchased products including many repeated users who have purchased more than one product.
+
+To get only the distinct users we use DISTINCT keyword as:
+
+    SELECT DISTINCT user_id FROM users_products;
+
+
+ORDER BY
+
+ORDER BY is used to get the results in a sorted manner. Run the following query:
+
+    SELECT id, name FROM products ORDER BY name ASC;
+
+ORDER BY is followed by the column name depending on which the records will be sorted. ASC is the keyword used to sort the records in the ascending order. DESC is the keyword used to sort the records in the descending order.

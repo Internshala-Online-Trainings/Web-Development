@@ -1,0 +1,5 @@
+The queries used in the lesson.
+
+    SELECT * FROM users_products INNER JOIN users ON users_products.user_id = users.id;
+    SELECT * FROM users_products up INNER JOIN users u ON u.id = up.user_id;
+

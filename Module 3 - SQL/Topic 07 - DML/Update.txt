@@ -1,0 +1,12 @@
+The queries used in the lesson.
+
+    UPDATE users SET first_name = 'Arjun' WHERE users.id = 3;
+    UPDATE users SET first_name = 'Arjun' WHERE users.id = 3;
+    UPDATE users SET first_name = 'Arjun' WHERE users.id = 3;
+    UPDATE users SET first_name = 'Arjun';
+    UPDATE users SET first_name = 'Arjun' WHERE users.id = 3;
+    UPDATE users SET first_name = 'Vinayak' WHERE users.email = 'rahul@xyz.com';
+    UPDATE users SET last_name = 'unknown' WHERE last_name IS NULL;
+    UPDATE users SET first_name = 'Vinayak' WHERE users.id = 1 OR users.id = 2;
+    DELETE FROM users WHERE id = 1;
+

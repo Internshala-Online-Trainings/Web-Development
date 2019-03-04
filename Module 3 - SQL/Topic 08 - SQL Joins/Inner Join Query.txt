@@ -1,0 +1,13 @@
+The queries used in the lesson.
+
+    SELECT u.first_name, u.phone, u.email FROM users_products up INNER JOIN users u ON u.id = up.user_id;
+    SELECT u.first_name, u.phone, u.email, p.name FROM users_products up
+    INNER JOIN users u ON u.id = up.user_id
+    INNER JOIN products p ON p.id = up.product_id;
+    SELECT u.first_name, u.phone, u.email, p.name FROM users_products up
+    INNER JOIN users u ON u.id = up.user_id
+    INNER JOIN products p ON p.id = up.product_id
+    WHERE p.name = ‘deception_point’;
+    SELECT u.first_name, u.phone, u.email, p.name FROM users_products up INNER JOIN users u
+    ON u.id = up.user_id INNER JOIN products p ON p.id = up.product_id
+    WHERE p.name = ‘deception_point’ OR p.name = ‘animal_farm’;

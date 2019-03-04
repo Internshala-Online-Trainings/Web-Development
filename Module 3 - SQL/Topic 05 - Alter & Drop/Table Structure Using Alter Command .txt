@@ -1,0 +1,6 @@
+The queries used in the lesson.
+
+    ALTER TABLE temp_db.products MODIFY id INT NOT NULL;
+    ALTER TABLE temp_db.products ADD PRIMARY KEY(id);
+    ALTER TABLE temp_db.products MODIFY COLUMN id INT AUTO_INCREMENT;
+
