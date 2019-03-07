@@ -1,0 +1,13 @@
+Note from Instructor:
+
+    Since id attribute is used to identify elements uniquely, ideally two elements should not have the same id.
+    The commonly used block level elements are:
+        <div>
+        <footer>
+        <form>
+        Heading levels <h1> to <h6>
+        <header>
+        List related elements <li>,<ol>, <ul>
+        <p>
+        <nav>
+        <table>
