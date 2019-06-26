@@ -2,5 +2,5 @@ The queries used in the lesson.
 
     CREATE table products query;
     CREATE table users_products query;
-    CREATE TABLE ecommerce.products(`id` INT(11) AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(30), `category`                       enum('book','stationery','other'))
+    CREATE TABLE ecommerce.products(`id` INT(11) AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(30), `category` enum('book','stationary','book') 
     CREATE TABLE ecommerce.users_products(`id` INT(11) AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11), `products_id` INT(11))
