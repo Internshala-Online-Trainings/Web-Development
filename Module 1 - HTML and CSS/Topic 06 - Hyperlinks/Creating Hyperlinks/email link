@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+This is mail link:
+<a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">Send mail!</a>
+</p>
+
+
+
+</body>
+</html>
