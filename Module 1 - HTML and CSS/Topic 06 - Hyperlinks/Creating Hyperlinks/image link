@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+An image as a link: <a href="https://www.google.com">
+<img border="0" alt="Google" src="logo_w3s.gif" width="300" height="400">
+</a>
+</p>
+
+</body>
+</html>
