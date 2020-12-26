@@ -3,6 +3,8 @@ External CSS file
 */
 
 body{
+		color:blue;
+		background-color:yellow;
 		max-width:1000px;
 		margin:auto;
 		font-family: Roboto;
